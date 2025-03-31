@@ -1,0 +1,7 @@
+id = "sops"
+name = "sops"
+version = "0.0.1"
+schema_version = 1
+authors = ["Josh Simmonds <github@beholdthehurricane.com>"]
+description = "Sops support for Zed"
+repository = "https://github.com/j0sh3rs/sops-zed"
