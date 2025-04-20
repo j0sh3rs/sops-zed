@@ -1,0 +1,5 @@
+---
+creation_rules:
+  - path_regex: sops.test.yaml
+    mac_only_encrypted: true
+    age: 'age1qwwzsz6z2mmu6hpmjt2he7nepmnhutmhehvkva7l5zy5xzf08d5s5n4d6n'

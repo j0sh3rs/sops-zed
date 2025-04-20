@@ -1,0 +1,17 @@
+{
+	"name": "zed-sops-extension",
+	"version": "0.1.0",
+	"private": true,
+	"main": "dist/extension.js",
+	"scripts": {
+		"build": "tsc",
+		"start": "node dist/context-server.js"
+	},
+	"dependencies": {
+		"json-rpc-2.0": "^1.7.0",
+		"zed": "*"
+	},
+	"devDependencies": {
+		"typescript": "^4.9.0"
+	}
+}

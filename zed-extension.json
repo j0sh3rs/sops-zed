@@ -1,0 +1,18 @@
+{
+	"name": "zed-sops",
+	"displayName": "Zed SOPS Integration",
+	"version": "0.1.0",
+	"engines": { "zed": "*" },
+	"main": "dist/extension.js",
+	"contextServer": {
+		"command": "node",
+		"args": ["dist/context-server.js"]
+	},
+	"activationEvents": ["onLanguage:yaml", "onLanguage:dotenv"],
+	"contributions": {
+		"commands": [
+			{ "command": "sops.decrypt", "title": "SOPS: Decrypt Document" },
+			{ "command": "sops.encrypt", "title": "SOPS: Encrypt Document" }
+		]
+	}
+}
