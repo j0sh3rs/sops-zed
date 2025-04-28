@@ -1,7 +1,11 @@
 id = "sops"
-name = "sops"
-version = "0.0.1"
+name = "SOPS Encryption Handler"
+version = "0.0.5"
 schema_version = 1
 authors = ["Josh Simmonds <github@beholdthehurricane.com>"]
-description = "Sops support for Zed"
+description = "Automatically decrypts SOPS-encrypted files on open and re-encrypts on save/close"
 repository = "https://github.com/j0sh3rs/sops-zed"
+
+[context_servers.sops]
+name = "SOPS Context Server"
+language = ""  # Not language specific

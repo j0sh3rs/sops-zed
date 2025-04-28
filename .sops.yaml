@@ -1,0 +1,8 @@
+---
+creation_rules:
+  - path_regex: test.sops.yaml
+    mac_only_encrypted: true
+    age: "age1u6msvn3tcvwupuza55fyrpvx06qzvdhqe0w4gc8nmjae96950ysq0qpfvh"
+stores:
+  yaml:
+    indent: 2
